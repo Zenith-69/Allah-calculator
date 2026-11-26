@@ -98,7 +98,8 @@ int main() {
 			//...........................
 
 			SetConsoleTextAttribute(hConsole, 12);
-			cout << "Ответ: " << SetConsoleTextAttribute(hConsole, 7) << res << endl;
+			cout << "Ответ: " << res << endl;
+			SetConsoleTextAttribute(hConsole, 7);
 			
 
 		}
